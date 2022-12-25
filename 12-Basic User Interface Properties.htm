@@ -1,0 +1,1376 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>وب سایت</title>
+  <meta charset="utf-8">
+
+   <link rel="stylesheet" href="Main.css" type="text/css"/>
+   <link rel="stylesheet" type="text/css" href="Chapter 12 - Basic User Interface Properties.css"> 
+
+
+</head>
+
+<body>
+
+<form id="form1" runat="server">
+
+          <div class="header">
+
+              <div class="container">
+
+                    <div class="logo">
+
+                      
+
+                    </div>
+
+                    <div class="header-topleft">
+
+                      <div class="login-box">
+
+                            <table align="center">
+
+                                  <tr>
+
+                                    <td align="right" >
+
+                                        <label class="Lable">نام کاربري:</label>
+
+                                        <input id="Text1" class="LoginInputControl" type="text" />
+
+                                        <label class="Lable" >کلمه عبور:</label>
+
+                                        <input id="Text2" class="LoginInputControl" type="password" />
+
+                                        <input id="Submit1" class="loginButton" type="submit" value="ورود"/>
+
+                                    </td>
+
+                                  </tr>
+
+                                  
+
+                             </table>
+
+                      </div>
+
+                    </div>
+
+              </div>
+
+           </div>
+
+<div class="header-nav-bar">
+
+
+                 <div class="container">
+
+                   <div class="header-nav-bar-link">
+
+                     <div id="TreeMenuChangesContainer" style="display:hidden"></div>
+
+                       <ul id="TreeRoot" class="TreeMenu">
+
+                         <li id="TreeMenuRow[0][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="2-Colors.htm" id="TreeMenuRow[0][titleLink]">رنگ</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[1][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="3-Grammare.htm" id="TreeMenuRow[1][titleLink]">گرامر</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[2][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="5-Basic Box.htm" id="TreeMenuRow[2][titleLink]">مدل کادری</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[3][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="6-Background.htm" id="TreeMenuRow[3][titleLink]">پس زمینه</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[4][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="7-Text.htm" id="TreeMenuRow[4][titleLink]">متن</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[5][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="8-Table-Lists and Counters.htm" id="TreeMenuRow[5][titleLink]">جدول</a>
+
+                         </li>
+
+                         <li id="Li1" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="9-Multi-column Layout Properties.htm" id="A1">چندستونی</a>
+
+                         </li>
+
+                         <li id="Li2" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="10-Border.htm" id="A2">لبه ها</a>
+
+                         </li>
+
+                         <li id="Li3" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="11-Flexible Box.htm" id="A3">کادر انعطاف پذیر</a>
+
+                         </li>
+
+                         <li id="Li4" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="12-Basic User Interface Properties.htm" id="A4">واسط کاربری</a>
+
+                         </li>
+
+                         <li id="Li5" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="13-Animation Transform Transition.htm" id="A5">انیمیشن</a>
+
+                         </li>
+
+                         <li id="Li6" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="14-Filter Properties - Image values and Replaced.htm" id="A6">مقادیر تصویر</a>
+
+                         </li>
+
+                         <li id="Li7" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="15-Paged Media - Generated Content for Paged Media.htm" id="A7">رسانه</a>
+
+                         </li>
+
+                       </ul>
+
+                     </div>
+
+                   <div class="social">
+
+                       <ul>
+
+                         <li>
+
+                           <a rel="nofollow" href="" title="فيسبوک">
+
+                             <img alt="Facebook" src="images/facebook.png">
+
+                           </a>
+
+                         </li>
+
+                         <li>
+
+                           <a rel="nofollow" href="" title="آپارات">
+
+                             <img alt="Twitter" src="images/twitter.png">
+
+                           </a>
+
+                         </li>
+
+                         <li>
+                           <a rel="nofollow" href="" title="گوگل+">
+
+                             <img alt="G+" src="images/google_plus.png">
+
+                           </a>
+
+                         </li>
+
+                         <li>
+
+                           <a class="g-plusone" data-href="" data-size="small" data-annotation="bubble">
+
+                           </a>
+
+                         </li>
+
+                        </ul>
+
+                    </div>
+
+                 </div>
+
+              </div>
+
+          <div class="menu">
+
+                 <div class="container">
+
+                  <div id="simpleMenuChangesContainer" style="display:hidden"></div>
+
+                    <ul id="nav">
+
+                        <li id="menueRow[0][item]" class="menueChildNode homeNode">
+
+                          <a href="Main.htm" id="menueRow[0][container]"></a>
+
+                        </li>
+
+
+                        <li id="menueRow[1][item]" class="menueParentNode" >
+
+                          <a>کاربردی ترین دستورات CSS</a>
+
+                           <ul id="menueRow[1][childs]" class="">
+
+                             <li>
+
+                               <ul class="submenu">
+
+                                 <li>
+
+                                   <!-- first coulumn -->
+                                   <ul class="submenu-column">
+
+                                <li>
+
+                                <ul>
+
+                                  <li class="ul-title">
+
+                                    <a>انیمیشن و انتقال</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">@keyframes shake</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">@keyframes rotate-x</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">transform</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">transition-delay</a>
+
+                                  </li>
+
+
+                                  <li class="li-item">
+
+                                    <a href="">perspective</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">perspective-origin</a>
+
+                                  </li>
+
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+
+                        <!-- second coulumn -->
+
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                              <li class="ul-title">
+
+                                <a>کادر انعطاف پذیر</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">align-items</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">flex-direction</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">flex-shrink</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">justify-content</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">margin-left</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">margin-top</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">min-height</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">order</a>
+
+                              </li>
+
+                            </ul>
+
+                           </li>
+
+                        </ul>
+
+                        <!-- third coulumn -->
+
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                              <li class="ul-title">
+
+                                <a>پس زمینه</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-image</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-attachment</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-origin</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-size</a>
+
+                              </li>
+
+                            </ul>
+
+                          </li>
+
+                        </ul>
+
+                                   <!-- fourth coulumn -->
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                                <li class="ul-title"><a>مُدل کادری</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">clear</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">display</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">float</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">overflow</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">overflow-y</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">padding</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">visibility</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">vertical-align</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">width</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">z-index</a>
+
+                                </li>
+
+                            </ul>
+
+                          </li>
+
+                        </ul>
+
+                    </li>
+
+                 </ul>
+
+                </li>
+
+          </ul>
+
+
+                        <li id="menueRow[2][item]" class="menueChildNode">
+
+                          <a href="" id="menueRow[2][container]">JQUERY</a>
+
+                        </li>
+
+                        <li id="menueRow[3][item]" class="menueChildNode">
+
+                          <a href="" id="menueRow[3][container]">JAVA SCRIPT</a>
+
+                        </li>
+
+                        <li id="menueRow[4][item]" class="menueChildNode">
+
+                          <a href="" id="menueRow[4][container]">AJAX</a>
+
+                        </li>
+
+
+                        <li id="menueRow[5][item]" class="menueParentNode" >
+
+                          <a>کاربردی ترین دستورات CSS</a>
+
+                           <ul id="Ul1" class="">
+
+                             <li>
+
+                               <ul class="submenu">
+
+                                 <li>
+
+                                   <!-- first coulumn -->
+                                   <ul class="submenu-column">
+
+                                <li>
+
+                                <ul>
+
+                                  <li class="ul-title">
+
+                                    <a>انیمیشن و انتقال</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">@keyframes shake</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">@keyframes rotate-x</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">transform</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">transition-delay</a>
+
+                                  </li>
+
+
+                                  <li class="li-item">
+
+                                    <a href="">perspective</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">perspective-origin</a>
+
+                                  </li>
+
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+
+                        <!-- second coulumn -->
+
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                              <li class="ul-title">
+
+                                <a>کادر انعطاف پذیر</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">align-items</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">flex-direction</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">flex-shrink</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">justify-content</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">margin-left</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">margin-top</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">min-height</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">order</a>
+
+                              </li>
+
+                            </ul>
+
+                           </li>
+
+                        </ul>
+
+                        <!-- third coulumn -->
+
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                              <li class="ul-title">
+
+                                <a>پس زمینه</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-image</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-attachment</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-origin</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-size</a>
+
+                              </li>
+
+                            </ul>
+
+                          </li>
+
+                        </ul>
+
+                                   <!-- fourth coulumn -->
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                                <li class="ul-title"><a>مُدل کادری</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">clear</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">display</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">float</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">overflow</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">overflow-y</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">padding</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">visibility</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">vertical-align</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">width</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">z-index</a>
+
+                                </li>
+
+                            </ul>
+
+                          </li>
+
+                        </ul>
+
+                    </li>
+
+                 </ul>
+
+                </li>
+
+          </ul>
+
+
+
+                        <li id="menueRow[6][item]" class="menueChildNode">
+
+                          <a href="" id="menueRow[6][container]">HTML</a>
+
+                        </li>
+
+
+                      </li>
+
+                   </ul>
+
+                 </div>
+
+               </div>
+
+
+
+
+<!-- wrapper -->
+
+
+          <div class="wrapper">
+
+                     <div class="container">
+
+                        <div class="main">
+
+                                            
+
+                              <!-- Main Content -->
+
+                               <div class="content">
+  
+                                     <div class="single-content-box-left" id="12">
+
+                                       <h1 class="content-box-title">
+                                               فصل دوازدهُم: واسط کاربری اصلی
+                                       </h1>
+
+                                       <div class="basic-user-interface">
+
+
+                                      <h1 class="css-box-title">
+                                               box-sizing
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               تنظیم ارتفاع و عرض بر اساس مُحتویات ...
+                                      </h1>
+                                        <div class="box-sizing">
+                                                عنصر پدر
+                                              <div class="child-90-percent"> فرزند اول</div>
+                                              <div class="child-48-percent"> فرزند دوم</div>
+                                              <div class="child-48-percent"> فرزند سوم</div>
+                                            </div>
+
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            div.box-sizing {
+                                              &nbsp;&nbsp;border: 1px solid  
+                                              &nbsp;&nbsp;rgb(127,127,127);
+                                              &nbsp;&nbsp;margin: .5%;
+                                              &nbsp;&nbsp;text-align: center;
+                                            }
+                                            div.child-90-percent {
+                                              &nbsp;&nbsp;box-sizing: border-box;
+                                              &nbsp;&nbsp;padding: 5%;
+                                              &nbsp;&nbsp;margin: 5%;
+                                              &nbsp;&nbsp;width: 90%;
+                                              &nbsp;&nbsp;height: 35%;
+                                              &nbsp;&nbsp;border: 2px solid black;
+                                            }
+                                            div.child-48-percent {
+                                              &nbsp;&nbsp;box-sizing: border-box;
+                                              &nbsp;&nbsp;padding: 3%;
+                                              &nbsp;&nbsp;margin: 2px;
+                                              &nbsp;&nbsp;width: 48%;
+                                              &nbsp;&nbsp;height: 35%;
+                                              &nbsp;&nbsp;float: left;
+                                              &nbsp;&nbsp;border: 3px solid black;
+                                            }
+
+                                            <div class="box-sizing">
+                                                &nbsp;&nbsp;عنصر پدر
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<div class="child-90-percent">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;فرزند اول
+                                                &nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                                &nbsp;&nbsp;<div class="child-48-percent">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;فرزند دوم
+                                                &nbsp;&nbsp;</div>
+                                                &nbsp;&nbsp;<div class="child-48-percent">
+                                                &nbsp;&nbsp;&nbsp;&nbsp;فرزند سوم
+                                                &nbsp;&nbsp;</div>
+                                            </div>
+                                          </textarea>
+                                         </div> 
+                                                                             
+
+
+                                      <h1 class="css-box-title">
+                                               content
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               دَرج مُحتویات
+                                      </h1>
+                                        <div class="outer-div-pic">
+                                            <div class="content">
+                                                <p>CSS icon in google engin</p>
+                                                <a href="http://google.com">(Google)</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            div.content {
+                                              &nbsp;&nbsp;max-width: 220px;
+                                              &nbsp;&nbsp;height: 86px;
+                                            }
+                                            div.content p, a {
+                                              &nbsp;&nbsp;width: 90%;
+                                            }
+                                            div.content p:before {
+                                              &nbsp;&nbsp;content: 
+                                              &nbsp;&nbsp;url("images/cssPicSmallest.jpg");
+                                            }
+                                            div.content a:before {
+                                              &nbsp;&nbsp;content: attr(href);
+                                            }
+
+                                            <div>
+                                              &nbsp;&nbsp;<div class="content">
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<p>CSS icon in google engin</p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://google.com">
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Google)
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                              </div>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+
+
+
+                                      <h1 class="css-box-title">
+                                               cursor
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               مکان نِما
+                                      </h1>                                        
+                                        <div class="outer-div-pic">
+                                            <div class="cursor"></div>
+                                        </div>
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            div.cursor {
+                                                &nbsp;&nbsp;cursor: pointer;
+                                                &nbsp;&nbsp;width: 100%;
+                                                &nbsp;&nbsp;height: 100%;
+                                            }
+                                            <div>
+                                                &nbsp;&nbsp;<div class="cursor"></div>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+                                        
+
+
+
+                                      <h1 class="css-box-title">
+                                               ime-mode
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               حالت کُنترل های ورود متن
+                                      </h1>
+                                        <div class="outer-div-pic">
+                                            Enter Text :<input class="ime-mode" type="text" />
+                                        </div>
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            .ime-mode {
+                                               &nbsp;&nbsp;ime-mode: normal;
+                                            }
+                                            <div>
+                                               &nbsp;&nbsp;Enter Text :
+                                               &nbsp;&nbsp;<input class="ime-mode" 
+                                               &nbsp;&nbsp;type="text"/>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+
+                                        
+
+                                      <h1 class="css-box-title">
+                                               nav-down
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               انتقال با کلید جهت پایین
+                                      </h1>
+                                        <div class="outer-div-pic">
+                                            <button id="b1">Button 1</button>
+                                            <button id="b2">Button 2</button>
+                                            <button id="b3">Button 3</button>
+                                            <button id="b4">Button 4</button>
+                                        </div>
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            button {
+                                              &nbsp;&nbsp;position: absolute;
+                                              &nbsp;&nbsp;font-weight: bold;
+                                            }
+                                            button#b1 {
+                                              &nbsp;&nbsp;top: 20%;
+                                              &nbsp;&nbsp;left: 35%;
+                                              &nbsp;&nbsp;nav-index: 1;
+                                              &nbsp;&nbsp;nav-right: #b2;
+                                              &nbsp;&nbsp;nav-left: #b4;
+                                              &nbsp;&nbsp;nav-down: #b2;
+                                              &nbsp;&nbsp;nav-up: #b4;
+                                            }
+                                            button#b2 {
+                                              &nbsp;&nbsp;top: 45%;
+                                              &nbsp;&nbsp;left: 65%;
+                                              &nbsp;&nbsp;nav-index: 2;
+                                              &nbsp;&nbsp;nav-right: #b3;
+                                              &nbsp;&nbsp;nav-left: #b1;
+                                              &nbsp;&nbsp;nav-down: #b3;
+                                              &nbsp;&nbsp;nav-up: #b1;
+                                            }
+                                            button#b3 {
+                                              &nbsp;&nbsp;top: 70%;
+                                              &nbsp;&nbsp;left: 35%;
+                                              &nbsp;&nbsp;nav-index: 3;
+                                              &nbsp;&nbsp;nav-right: #b4;
+                                              &nbsp;&nbsp;nav-left: #b2;
+                                              &nbsp;&nbsp;nav-down: #b4;
+                                              &nbsp;&nbsp;nav-up: #b2;
+                                            }
+                                            button#b4 {
+                                              &nbsp;&nbsp;top: 45%;
+                                              &nbsp;&nbsp;left: 5%;
+                                              &nbsp;&nbsp;nav-index: 4;
+                                              &nbsp;&nbsp;nav-right: #b1;
+                                              &nbsp;&nbsp;nav-left: #b3;
+                                              &nbsp;&nbsp;nav-down: #b1;
+                                              &nbsp;&nbsp;nav-up: #b3;
+                                            }
+                                            <div>
+                                              &nbsp;&nbsp;<button id="Button1">Button 1
+                                              &nbsp;&nbsp;</button>
+                                              &nbsp;&nbsp;<button id="Button2">Button 2
+                                              &nbsp;&nbsp;</button>
+                                              &nbsp;&nbsp;<button id="Button3">Button 3
+                                              &nbsp;&nbsp;</button>
+                                              &nbsp;&nbsp;<button id="Button4">Button 4
+                                              &nbsp;&nbsp;</button>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+                                        
+
+                                      <h1 class="css-box-title">
+                                               outline
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               بَرجَسته سازی
+                                      </h1>
+                                        <div class="outer-div-pic">
+                                            <p class="outline">
+                                            خط برجسته سازی عنصر
+                                            </p>
+                                        </div>
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            p.outline {
+                                              &nbsp;&nbsp;outline: red dashed 3px;
+                                              &nbsp;&nbsp;text-align: center;
+                                              &nbsp;&nbsp;width: 90%;
+                                              &nbsp;&nbsp;margin-left: 5%;
+                                            }
+                                            <div>
+                                              &nbsp;&nbsp;<p class="outline">
+                                                &nbsp;&nbsp;خط برجسته سازی عنصر
+                                              &nbsp;&nbsp;</p>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+                                        
+
+
+                                      <h1 class="css-box-title">
+                                               outline-color
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               رنگ خط برجسته سازی
+                                      </h1>
+                                        <div class="outer-div-pic">
+                                            <p class="outline-color">
+                                                رنگ خط برجسته سازی عنصر
+                                            </p>
+                                        </div>
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            p.outline-color {
+                                                &nbsp;&nbsp;outline-style: solid;
+                                                &nbsp;&nbsp;outline-color: #ccc;
+                                                &nbsp;&nbsp;margin-top: 10px;
+                                                &nbsp;&nbsp;width: 90%;
+                                                &nbsp;&nbsp;margin-left: 5%;
+                                                &nbsp;&nbsp;text-align: center;
+                                            }
+                                            <div>
+                                                &nbsp;&nbsp;<p class="outline-color">
+                                                &nbsp;&nbsp;رنگ خط برجسته سازی عنصر
+                                                &nbsp;&nbsp;</p>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+                                        
+
+
+                                      <h1 class="css-box-title">
+                                               outline-offset
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               فاصله بین لبه ها و خط   برجسته سازی
+                                      </h1>
+                                        <div class="outer-div-pic">
+                                            <p class="outline-offset">
+                                            فاصله بین لبه ها و خط   برجسته سازی عنصر
+                                            </p>
+                                        </div>
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            p.outline-offset {
+                                               &nbsp;&nbsp;border: 2px solid black;
+                                               &nbsp;&nbsp;outline: 2px solid red;
+                                               &nbsp;&nbsp;outline-offset: 5px;
+                                               &nbsp;&nbsp;width: 90%;
+                                               &nbsp;&nbsp;margin-left: 5%;
+                                               &nbsp;&nbsp;margin-top: 10px;
+                                               &nbsp;&nbsp;text-align: center;
+                                            }
+                                            <div>
+                                               &nbsp;&nbsp;<p class="outline-offset">
+                                                 &nbsp;&nbsp;فاصله بین لبه ها و خط برجسته سازی عنصر
+                                               &nbsp;&nbsp;</p>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+                                        
+
+                                      <h1 class="css-box-title">
+                                               outline-style
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               سبک خط برجسته سازی
+                                      </h1>
+                                        <div class="outer-div-pic">
+                                            <p class="outline-style">
+                                                سبک خط برجسته سازی عنصر
+                                            </p>
+                                        </div>
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            p.outline-style {
+                                              &nbsp;&nbsp;outline-style: dotted;
+                                              &nbsp;&nbsp;margin-top: 10px;
+                                              &nbsp;&nbsp;width: 90%;
+                                              &nbsp;&nbsp;margin-left: 5%;
+                                              &nbsp;&nbsp;text-align: center;
+                                            }
+                                            <div>
+                                              &nbsp;&nbsp;<p class="outline-style">
+                                                &nbsp;&nbsp;سبک خط برجسته سازی عنصر
+                                              &nbsp;&nbsp;</p>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+                                        
+
+
+                                      <h1 class="css-box-title">
+                                               outline-width
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               ضخامت  خط برجسته سازی
+                                      </h1>
+                                        <div class="outer-div-pic">
+                                            <p class="outline-width">
+                                                ضخامت  خط برجسته سازی عنصر
+                                            </p>
+                                        </div>
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            p.outline-width {
+                                               &nbsp;&nbsp;outline-style: double;
+                                               &nbsp;&nbsp;outline-width: 3px;
+                                               &nbsp;&nbsp;width: 90%;
+                                               &nbsp;&nbsp;margin-left: 5%;
+                                               &nbsp;&nbsp;margin-top: 10px;
+                                               &nbsp;&nbsp;text-align: center;
+                                            }
+                                            <div>
+                                               &nbsp;&nbsp;<p class="outline-width">
+                                                 &nbsp;&nbsp;ضخامت  خط برجسته سازی عنصر
+                                               &nbsp;&nbsp;</p>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+                                        
+
+
+                                      <h1 class="css-box-title">
+                                               resize
+                                      </h1>
+                                      <h1 class="css-onvan-box-title">
+                                               تغییر اندازه توسط کاربَر
+                                      </h1>
+                                        <div class="outer-div-pic">
+                                            <div class="resize">
+                                            کاربر می تواند عنصر را تغییر اندازه دهد
+                                            </div>
+                                        </div>
+                                        <div class="outer-div-code">
+                                          <textarea class="textarea">
+                                            div.resize {
+                                              &nbsp;&nbsp;resize:both;
+                                              &nbsp;&nbsp;overflow:auto;
+                                              &nbsp;&nbsp;width: 90%;
+                                              &nbsp;&nbsp;margin-top: 10px;
+                                              &nbsp;&nbsp;margin-left: 5%;
+                                              &nbsp;&nbsp;border: 1px solid black;
+                                              &nbsp;&nbsp;text-align: center;
+                                            }
+                                            <div>
+                                              &nbsp;&nbsp;<div class="resize">
+                                                  &nbsp;&nbsp;کاربر می تواند عنصر را تغییر اندازه دهد
+                                              &nbsp;&nbsp;</div>
+                                            </div>
+                                          </textarea>
+                                         </div>
+
+                                     </div>
+
+
+                                    </div>                                
+
+                                 </div>
+
+                                <!-- Main Content -->
+                                        
+                                    
+                                    
+                               <!-- sidebar -->
+
+                                   <div class="sidebar">
+
+                                        <h1 class="sidebar-content-box-title" >فصلهای کتاب</h1>
+                                          <div class="sidebar-vertical-category-list">
+
+                                            <ul>
+
+                                                <li>
+
+                                                    <a href='2-Colors.htm'>فصل ۲: رنگ ها
+
+
+  
+                                                </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='3-Grammare.htm'>فصل ۳: قوانین گرامری CSS
+
+
+  
+                                                </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='5-Basic Box.htm'>فصل ۵: مُدل کادری
+
+  
+                                                </a>
+
+                                                </li>
+
+
+
+                                                <li>
+
+                                                    <a href='6-Background.htm'>فصل ۶: پس زمینه
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='7-Text.htm'>فصل ۷: مَتن
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='8-Table-Lists and Counters.htm'>فصل ۸: جدول، شُمارنده ها
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='9-Multi-column Layout Properties.htm'>فصل ۹: طرح چند ستونی
+
+                                                    </a>
+
+                                                </li>
+
+
+                                                <li>
+
+                                                    <a href='10-Border.htm'>فصل ۱۰: لبه ها
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='11-Flexible Box.htm'>فصل ۱۱: کادر انعطاف پذیر
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='12-Basic User Interface Properties.htm'>فصل ۱۲: واسط کاربری اصلی
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='13-Animation Transform Transition.htm'>فصل ۱۳: انیمیشن، تغییرشکل
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='14-Filter Properties - Image values and Replaced.htm'>فصل ۱۴: مقادیر تصویر، مُحتوا
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='15-Paged Media - Generated Content for Paged Media.htm'>فصل ۱۵: رسانه ی صفحه ای
+
+                                                    </a>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+                                   </div>
+
+                               <!-- sidebar -->
+
+
+
+                        </div>
+
+                      </div>
+          </div>
+
+
+<!-- wrapper -->
+
+
+<!-- footer -->
+
+          <div class="footer">
+
+            <div class="container">
+
+              <div class="footer-item-about">
+
+                <h3 class="footer-item-about-title">درباره ما</h3>
+                     توضیحات درباره وب سایت
+              </div>
+
+            </div>
+
+          </div>
+
+<!-- footer -->
+
+
+<!-- copyright -->
+
+          <div class="copyright">
+                <div class="container"> تمام حقوق مادی و معنوی اين کتاب آموزشی و صفحات وب طراحی شده آن براي
+                  <a href="http://biau.ac.ir/" target="_blank">دانشگاه آزاد اسلامی واحد بیضا فارس</a>
+                   محفوظ است.<br /> <p style="text-align:left;">Copyright ©.  2014-2016</p>    
+                   
+                   
+                 </div>
+          </div>
+
+<!-- copyright -->
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>

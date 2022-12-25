@@ -1,0 +1,1352 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>وب سایت</title>
+  <meta charset="utf-8">
+
+   <link rel="stylesheet" href="Main.css" type="text/css"/>
+   <link rel="stylesheet" type="text/css" href="Chapter 14 - Filter Properties - Image values and Replaced.css">
+
+
+</head>
+
+<body>
+
+<form id="form1" runat="server">
+
+          <div class="header">
+
+              <div class="container">
+
+                    <div class="logo">
+
+                      
+
+                    </div>
+
+                    <div class="header-topleft">
+
+                      <div class="login-box">
+
+                            <table align="center">
+
+                                  <tr>
+
+                                    <td align="right" >
+
+                                        <label class="Lable">نام کاربري:</label>
+
+                                        <input id="Text1" class="LoginInputControl" type="text" />
+
+                                        <label class="Lable" >کلمه عبور:</label>
+
+                                        <input id="Text2" class="LoginInputControl" type="password" />
+
+                                        <input id="Submit1" class="loginButton" type="submit" value="ورود"/>
+
+                                    </td>
+
+                                  </tr>
+
+                                  
+
+                             </table>
+
+                      </div>
+
+                    </div>
+
+              </div>
+
+           </div>
+
+<div class="header-nav-bar">
+
+
+                 <div class="container">
+
+                   <div class="header-nav-bar-link">
+
+                     <div id="TreeMenuChangesContainer" style="display:hidden"></div>
+
+                       <ul id="TreeRoot" class="TreeMenu">
+
+                         <li id="TreeMenuRow[0][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="2-Colors.htm" id="TreeMenuRow[0][titleLink]">رنگ</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[1][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="3-Grammare.htm" id="TreeMenuRow[1][titleLink]">گرامر</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[2][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="5-Basic Box.htm" id="TreeMenuRow[2][titleLink]">مدل کادری</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[3][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="6-Background.htm" id="TreeMenuRow[3][titleLink]">پس زمینه</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[4][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="7-Text.htm" id="TreeMenuRow[4][titleLink]">متن</a>
+
+                         </li>
+
+                         <li id="TreeMenuRow[5][item]" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="8-Table-Lists and Counters.htm" id="TreeMenuRow[5][titleLink]">جدول</a>
+
+                         </li>
+
+                         <li id="Li1" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="9-Multi-column Layout Properties.htm" id="A1">چندستونی</a>
+
+                         </li>
+
+                         <li id="Li2" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="10-Border.htm" id="A2">لبه ها</a>
+
+                         </li>
+
+                         <li id="Li3" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="11-Flexible Box.htm" id="A3">کادر انعطاف پذیر</a>
+
+                         </li>
+
+                         <li id="Li4" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="12-Basic User Interface Properties.htm" id="A4">واسط کاربری</a>
+
+                         </li>
+
+                         <li id="Li5" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="13-Animation Transform Transition.htm" id="A5">انیمیشن</a>
+
+                         </li>
+
+                         <li id="Li6" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="14-Filter Properties - Image values and Replaced.htm" id="A6">مقادیر تصویر</a>
+
+                         </li>
+
+                         <li id="Li7" class="TreeMenuChildNode">
+
+                           <a class="noBg" href="15-Paged Media - Generated Content for Paged Media.htm" id="A7">رسانه</a>
+
+                         </li>
+
+                       </ul>
+
+                     </div>
+
+                   <div class="social">
+
+                       <ul>
+
+                         <li>
+
+                           <a rel="nofollow" href="" title="فيسبوک">
+
+                             <img alt="Facebook" src="images/facebook.png">
+
+                           </a>
+
+                         </li>
+
+                         <li>
+
+                           <a rel="nofollow" href="" title="آپارات">
+
+                             <img alt="Twitter" src="images/twitter.png">
+
+                           </a>
+
+                         </li>
+
+                         <li>
+                           <a rel="nofollow" href="" title="گوگل+">
+
+                             <img alt="G+" src="images/google_plus.png">
+
+                           </a>
+
+                         </li>
+
+                         <li>
+
+                           <a class="g-plusone" data-href="" data-size="small" data-annotation="bubble">
+
+                           </a>
+
+                         </li>
+
+                        </ul>
+
+                    </div>
+
+                 </div>
+
+              </div>
+
+<div class="menu">
+
+                 <div class="container">
+
+                  <div id="simpleMenuChangesContainer" style="display:hidden"></div>
+
+                    <ul id="nav">
+
+                        <li id="menueRow[0][item]" class="menueChildNode homeNode">
+
+                          <a href="Main.htm" id="menueRow[0][container]"></a>
+
+                        </li>
+
+
+                        <li id="menueRow[1][item]" class="menueParentNode" >
+
+                          <a>کاربردی ترین دستورات CSS</a>
+
+                           <ul id="menueRow[1][childs]" class="">
+
+                             <li>
+
+                               <ul class="submenu">
+
+                                 <li>
+
+                                   <!-- first coulumn -->
+                                   <ul class="submenu-column">
+
+                                <li>
+
+                                <ul>
+
+                                  <li class="ul-title">
+
+                                    <a>انیمیشن و انتقال</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">@keyframes shake</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">@keyframes rotate-x</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">transform</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">transition-delay</a>
+
+                                  </li>
+
+
+                                  <li class="li-item">
+
+                                    <a href="">perspective</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">perspective-origin</a>
+
+                                  </li>
+
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+
+                        <!-- second coulumn -->
+
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                              <li class="ul-title">
+
+                                <a>کادر انعطاف پذیر</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">align-items</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">flex-direction</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">flex-shrink</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">justify-content</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">margin-left</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">margin-top</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">min-height</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">order</a>
+
+                              </li>
+
+                            </ul>
+
+                           </li>
+
+                        </ul>
+
+                        <!-- third coulumn -->
+
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                              <li class="ul-title">
+
+                                <a>پس زمینه</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-image</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-attachment</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-origin</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-size</a>
+
+                              </li>
+
+                            </ul>
+
+                          </li>
+
+                        </ul>
+
+                                   <!-- fourth coulumn -->
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                                <li class="ul-title"><a>مُدل کادری</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">clear</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">display</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">float</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">overflow</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">overflow-y</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">padding</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">visibility</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">vertical-align</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">width</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">z-index</a>
+
+                                </li>
+
+                            </ul>
+
+                          </li>
+
+                        </ul>
+
+                    </li>
+
+                 </ul>
+
+                </li>
+
+          </ul>
+
+
+                        <li id="menueRow[2][item]" class="menueChildNode">
+
+                          <a href="" id="menueRow[2][container]">JQUERY</a>
+
+                        </li>
+
+                        <li id="menueRow[3][item]" class="menueChildNode">
+
+                          <a href="" id="menueRow[3][container]">JAVA SCRIPT</a>
+
+                        </li>
+
+                        <li id="menueRow[4][item]" class="menueChildNode">
+
+                          <a href="" id="menueRow[4][container]">AJAX</a>
+
+                        </li>
+
+
+                        <li id="menueRow[5][item]" class="menueParentNode" >
+
+                          <a>کاربردی ترین دستورات CSS</a>
+
+                           <ul id="Ul1" class="">
+
+                             <li>
+
+                               <ul class="submenu">
+
+                                 <li>
+
+                                   <!-- first coulumn -->
+                                   <ul class="submenu-column">
+
+                                <li>
+
+                                <ul>
+
+                                  <li class="ul-title">
+
+                                    <a>انیمیشن و انتقال</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">@keyframes shake</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">@keyframes rotate-x</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">transform</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">transition-delay</a>
+
+                                  </li>
+
+
+                                  <li class="li-item">
+
+                                    <a href="">perspective</a>
+
+                                  </li>
+
+                                  <li class="li-item">
+
+                                    <a href="">perspective-origin</a>
+
+                                  </li>
+
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+
+                        <!-- second coulumn -->
+
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                              <li class="ul-title">
+
+                                <a>کادر انعطاف پذیر</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">align-items</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">flex-direction</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">flex-shrink</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">justify-content</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">margin-left</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">margin-top</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">min-height</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">order</a>
+
+                              </li>
+
+                            </ul>
+
+                           </li>
+
+                        </ul>
+
+                        <!-- third coulumn -->
+
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                              <li class="ul-title">
+
+                                <a>پس زمینه</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-image</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-attachment</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-origin</a>
+
+                              </li>
+
+                              <li class="li-item">
+
+                                <a href="">background-size</a>
+
+                              </li>
+
+                            </ul>
+
+                          </li>
+
+                        </ul>
+
+                                   <!-- fourth coulumn -->
+                        <ul class="submenu-column">
+
+                          <li>
+
+                            <ul>
+
+                                <li class="ul-title"><a>مُدل کادری</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">clear</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">display</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">float</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">overflow</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">overflow-y</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">padding</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">visibility</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">vertical-align</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">width</a>
+
+                                </li>
+
+                                <li class="li-item"><a href="">z-index</a>
+
+                                </li>
+
+                            </ul>
+
+                          </li>
+
+                        </ul>
+
+                    </li>
+
+                 </ul>
+
+                </li>
+
+          </ul>
+
+
+
+                        <li id="menueRow[6][item]" class="menueChildNode">
+
+                          <a href="" id="menueRow[6][container]">HTML</a>
+
+                        </li>
+
+
+                      </li>
+
+                   </ul>
+
+                 </div>
+
+               </div>          
+
+
+
+
+<!-- wrapper -->
+
+
+          <div class="wrapper">
+
+                     <div class="container">
+
+                        <div class="main">
+
+                                            
+
+                              <!-- Main Content -->
+
+                               <div class="content">
+ 
+                                    <div class="single-content-box-left" id="14">
+
+                                       <h1 class="content-box-title">
+                                               فصل چهاردهُم: مقادیر تصویر، مُحتوای جایگُزین و فیلتر
+                                       </h1>
+
+
+                                      <h4 class="css-box-title">
+                                               image-orientation
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                               چَرخش تصویر
+                                      </h4>
+
+                                      <div class="outer-div-pic">
+
+                                            <div>
+                                              <img class="image-orientation" 
+                                              src="images/cssPic.jpg" style="width:120px; height:120px;">
+                                            </div>
+
+
+                                        </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .image-orientation
+                                                {
+                                                  &nbsp;&nbsp;image-orientation: 120deg flip;
+                                                }
+                                                <div>
+                                                  &nbsp;&nbsp;<img class="image-orientation" 
+                                                  &nbsp;&nbsp;src="images/cssPic.jpg">
+                                                </div>
+                                                                                                                                                                         
+                                          </textarea>
+                                        </div>
+                                         
+                                      
+                                      <h4 class="css-box-title">
+                                               image-rendering
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                               وضوح تصویر هنگام تغییر اندازه
+                                      </h4>
+
+                                      <div class="outer-div-pic">
+
+                                            <div>
+                                              <img class="image-rendering"
+                                              src="images/qrcode.png" style="width:150px; height:120px;">
+                                            </div>
+
+
+                                        </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                            .image-rendering
+                                            {
+                                                 &nbsp;&nbsp;image-rendering: pixelated;
+                                            }
+                                            <div>
+                                                <img class="image-rendering"
+                                                src="images/qrcode.png">
+                                            </div>
+
+                                                                                                                                                                         
+                                          </textarea>
+                                        </div>
+
+
+
+
+                                      <h4 class="css-box-title">
+                                               image-resolution
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                               تفکیک پذیری تصویر
+                                      </h4>
+                                      <div class="outer-div-pic">
+
+                                            <div>
+                                              <img class="image-resolution" 
+                                              src="images/cssPic.jpg" style="width:120px; height:120px;">
+                                            </div>
+
+
+                                        </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .image-resolution
+                                                {
+                                                  &nbsp;&nbsp;image-resolution: 1000dpi snap;
+                                                }
+                                                <div>
+                                                  &nbsp;&nbsp;<img class="image-resolution" 
+                                                  &nbsp;&nbsp;src="images/cssPic.jpg">
+                                                </div>
+                                                                                                                                                                         
+                                          </textarea>
+                                        </div>
+
+
+
+
+                                      <h4 class="css-box-title">
+                                               object-fit
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                               جای دهی تصویر بر اساس عرض و ارتفاع
+                                      </h4>
+
+                                      <div class="outer-div-pic">
+
+                                              <img class="object-fit" 
+                                              src="images/cssPic.jpg">
+
+                                        </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .object-fit 
+                                                {
+                                                  &nbsp;&nbsp;object-fit: fill;
+                                                }
+
+                                                <div>
+                                                  &nbsp;&nbsp;<img class="object-fit" 
+                                                  &nbsp;&nbsp;src="images/cssPic.jpg">
+                                                </div>
+                                                                                                                                                                         
+                                          </textarea>
+                                        </div>
+
+
+
+
+
+
+                                      <h4 class="css-box-title">
+                                                &nbsp;&nbsp; &nbsp;&nbsp;
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                               تصویر اصلی
+                                      </h4>
+
+                                      <div class="outer-div-pic" style="width:340px; height:200px; background-color:Orange;" >                              
+                                            <img src="images/image.png" style="width:340px; height:200px;">
+                                        </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .original-image {
+                                                   &nbsp;&nbsp;width: 340px;
+                                                   &nbsp;&nbsp;height: 200px;
+                                                }                                                                                                                                                                                                                        
+                                          </textarea>
+                                        </div>
+
+
+
+
+
+
+                                      <h4 class="css-box-title">
+                                                object-position: 0% 100%
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                            تغییر موقعیت به گوشه پایین سمت چپ
+                                      </h4>
+
+                                      <div class="outer-div-pic" style="width:340px; height:200px; background-color:Orange;" > 
+                                                                 
+                                            <img class="image-bottom-left" src="images/image.png" style="width:340px; height:200px;">
+                                       
+                                       </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .image-bottom-left {
+                                                  &nbsp;&nbsp;object-position: 0  100%;
+                                                  &nbsp;&nbsp;object-fit: none;
+                                                  &nbsp;&nbsp;width: 340px;
+                                                  &nbsp;&nbsp;height: 120px;
+                                                }                                                                                                                                                                                                                        
+                                          </textarea>
+                                        </div>
+
+
+                                      <h4 class="css-box-title">
+                                                object-position: 0 0
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                            تغییر موقعیت به گوشه بالای سمت چپ
+                                      </h4>
+
+                                      <div class="outer-div-pic" style="width:340px; height:200px; background-color:Orange;" >  
+                                                                  
+                                            <img class="image-top-left" src="images/image.png" style="width:340px; height:200px;">
+                                       
+                                       </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .image-top-left {
+                                                  &nbsp;&nbsp;object-position: 0  0;
+                                                  &nbsp;&nbsp;object-fit: none;
+                                                  &nbsp;&nbsp;width: 340px;
+                                                  &nbsp;&nbsp;height: 120px;
+                                                }                                                                                                                                                                                                                        
+                                          </textarea>
+                                        </div>
+
+
+
+
+                                      <h4 class="css-box-title">
+                                                object-position: 50% 120%
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                             تغییر موقعیت به پایین
+                                      </h4>
+
+                                      <div class="outer-div-pic" style="width:340px; height:200px; background-color:Orange;" >  
+                                                                 
+                                            <img class="image-down" src="images/image.png" style="width:340px; height:200px;">
+                                       
+                                       </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .image-down {
+                                                  &nbsp;&nbsp;object-position: 50%  120%;
+                                                  &nbsp;&nbsp;object-fit: none;
+                                                  &nbsp;&nbsp;width: 340px;
+                                                  &nbsp;&nbsp;height: 120px;
+                                                }                                                                                                                                                                                                                        
+                                          </textarea>
+                                        </div>
+
+
+
+
+                                      <h4 class="css-box-title">
+                                                object-position: 50% -20%
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                            تغییر موقعیت به بالا
+                                      </h4>
+
+                                      <div class="outer-div-pic" style="width:340px; height:200px; background-color:Orange;" >  
+                                                                  
+                                            <img class="image-up" src="images/image.png" style="width:340px; height:200px;">
+                                       
+                                       </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .image-up {
+                                                  &nbsp;&nbsp;object-position: 50%  -20%;
+                                                  &nbsp;&nbsp;object-fit: none;
+                                                  &nbsp;&nbsp;width: 340px;
+                                                  &nbsp;&nbsp;height: 120px;
+                                                }                                                                                                                                                                                                                        
+                                          </textarea>
+                                        </div>
+
+
+                                      <h4 class="css-box-title">
+                                                object-position: 120% 50%
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                            تغییر موقعیت به راست
+                                      </h4>
+
+                                      <div class="outer-div-pic" style="width:340px; height:200px; background-color:Orange;" >  
+                                                                   
+                                            <img class="image-right" src="images/image.png" style="width:340px; height:200px;">
+                                       
+                                       </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .image-right {
+                                                  &nbsp;&nbsp;object-position: 120%  50%;
+                                                  &nbsp;&nbsp;object-fit: none;
+                                                  &nbsp;&nbsp;width: 340px;
+                                                  &nbsp;&nbsp;height: 120px;
+                                                }                                                                                                                                                                                                                        
+                                          </textarea>
+                                        </div>
+
+
+
+
+                                      <h4 class="css-box-title">
+                                                object-position: -20% 50%
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                           تغییر موقعیت به چپ
+                                      </h4>
+
+                                      <div class="outer-div-pic" style="width:340px; height:200px; background-color:Orange;" >  
+                                                                  
+                                            <img class="image-left" src="images/image.png" style="width:340px; height:200px;">
+                                       
+                                       </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .image-left {
+                                                  &nbsp;&nbsp;object-position: -20%  50%;
+                                                  &nbsp;&nbsp;object-fit: none;
+                                                  &nbsp;&nbsp;width: 340px;
+                                                  &nbsp;&nbsp;height: 120px;
+                                                }                                                                                                                                                                                                                        
+                                          </textarea>
+                                        </div>
+
+
+
+
+
+                                      <h4 class="css-box-title">
+                                                object-position: 140% 90%  with background
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                            تغییر موقعیت به چپ با پس زمینه
+                                      </h4>
+
+                                      <div class="outer-div-pic" style="width:340px; height:200px; background-color:Orange;" >  
+                                                                  
+                                            <img class="image-background-image" src="images/image.png" style="width:340px; height:200px;">
+                                       
+                                       </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .image-background-image {
+                                                  &nbsp;&nbsp;object-position: 140%  90%;
+                                                  &nbsp;&nbsp;object-fit: none; 
+                                                  &nbsp;&nbsp;background-image: 
+                                                  &nbsp;&nbsp;&nbsp;&nbsp;url('images/close.png');
+                                                  &nbsp;&nbsp;width: 340px;
+                                                  &nbsp;&nbsp;height: 120px;
+                                                }                                                                                                                                                                                                                        
+                                          </textarea>
+                                        </div>
+
+
+
+
+                                      <h4 class="css-box-title">
+                                               filter
+                                      </h4>
+
+                                      <h4 class="css-onvan-box-title">
+                                               فیلتر
+                                      </h4>
+
+                                      <div class="outer-div-pic">
+
+                                            <div>
+                                              <img class="filter" 
+                                              src="images/cssPic.jpg" style="width:120px; height:120px;">
+                                            </div>
+
+
+                                        </div>
+
+                                      <div class="outer-div-code">
+                                          <textarea class="textarea"> 
+                                                .filter
+                                                {
+                                                  &nbsp;&nbsp;-webkit-filter: blur(2px);
+                                                }
+                                                <div>
+                                                  &nbsp;&nbsp;<img class="filter" 
+                                                  &nbsp;&nbsp;src="images/cssPic.jpg">
+                                                </div>
+                                                                                                                                                                         
+                                          </textarea>
+                                        </div>
+                                      </div>                                  
+                                    
+                                 </div>
+
+                                <!-- Main Content -->
+                                        
+                                    
+                                    
+                               <!-- sidebar -->
+
+                                   <div class="sidebar">
+
+                                        <h1 class="sidebar-content-box-title" >فصلهای کتاب</h1>
+                                          <div class="sidebar-vertical-category-list">
+
+                                            <ul>
+
+                                                <li>
+
+                                                    <a href='2-Colors.htm'>فصل ۲: رنگ ها
+
+
+  
+                                                </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='3-Grammare.htm'>فصل ۳: قوانین گرامری CSS
+
+
+  
+                                                </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='5-Basic Box.htm'>فصل ۵: مُدل کادری
+
+  
+                                                </a>
+
+                                                </li>
+
+
+
+                                                <li>
+
+                                                    <a href='6-Background.htm'>فصل ۶: پس زمینه
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='7-Text.htm'>فصل ۷: مَتن
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='8-Table-Lists and Counters.htm'>فصل ۸: جدول، شُمارنده ها
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='9-Multi-column Layout Properties.htm'>فصل ۹: طرح چند ستونی
+
+                                                    </a>
+
+                                                </li>
+
+
+                                                <li>
+
+                                                    <a href='10-Border.htm'>فصل ۱۰: لبه ها
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='11-Flexible Box.htm'>فصل ۱۱: کادر انعطاف پذیر
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='12-Basic User Interface Properties.htm'>فصل ۱۲: واسط کاربری اصلی
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='13-Animation Transform Transition.htm'>فصل ۱۳: انیمیشن، تغییرشکل
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='14-Filter Properties - Image values and Replaced.htm'>فصل ۱۴: مقادیر تصویر، مُحتوا
+
+                                                    </a>
+
+                                                </li>
+
+                                                <li>
+
+                                                    <a href='15-Paged Media - Generated Content for Paged Media.htm'>فصل ۱۵: رسانه ی صفحه ای
+
+                                                    </a>
+
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+                                   </div>
+
+                               <!-- sidebar -->
+
+                        </div>
+
+                      </div>
+          </div>
+
+
+<!-- wrapper -->
+
+
+<!-- footer -->
+
+          <div class="footer">
+
+            <div class="container">
+
+              <div class="footer-item-about">
+
+                <h3 class="footer-item-about-title">درباره ما</h3>
+                     توضیحات درباره وب سایت
+              </div>
+
+            </div>
+
+          </div>
+
+<!-- footer -->
+
+
+<!-- copyright -->
+
+          <div class="copyright">
+                <div class="container"> تمام حقوق مادی و معنوی اين کتاب آموزشی و صفحات وب طراحی شده آن براي
+                  <a href="http://biau.ac.ir/" target="_blank">دانشگاه آزاد اسلامی واحد بیضا فارس</a>
+                   محفوظ است.<br /> <p style="text-align:left;">Copyright ©.  2014-2016</p>    
+                   
+                   
+                 </div>
+          </div>
+
+<!-- copyright -->
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
